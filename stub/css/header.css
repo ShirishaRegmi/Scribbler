@@ -1,0 +1,48 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.logo
+{
+	float: left;
+
+}
+.signButtons
+{
+	float: right;
+
+}
+.clear
+{
+	clear: both;
+}
+h1
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #112fb4;
+	font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+}
+h5
+{
+	margin-left: 5px;
+	margin-top: -20px;
+	color: #160016;
+	font-family: 'Satisfy';
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+#signInBtn, #signUpBtn
+{
+	color: white;
+	background-color: #0000ff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 5px;
+	margin-right: 10px;
+}

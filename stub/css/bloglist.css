@@ -1,0 +1,245 @@
+.logo h5
+{
+    color: white;
+}
+/* MODEL */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.signUPmodal-content 
+{
+  background-color: #fefefe;
+  color: black;
+  margin: auto;
+  margin-top: -30px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 28%;
+  height: 70%;
+}
+.signINmodal-content 
+{
+  background-color: #fefefe;
+  color: black;
+  margin: auto;
+  margin-top: -30px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 28%;
+  height: 50%;
+}
+.modal h1
+{
+  font-family: Bahnschrift SemiLight SemiConde;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.close 
+{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover, .close:focus 
+{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+ .inputBox
+{
+  width: 94.7%;
+  padding: 10px;
+  border: 0px;
+  background-color: #f1f1f1;
+}
+.modal .info
+{
+  font-weight: bold;
+  font-size: 15px;
+}
+.modal .pad
+{
+  padding: 4px;
+}
+.modalButton
+{
+  width: 100%;
+  background-color: #5eb762;
+  color: white;
+  padding: 10px;
+  border: 0px;
+  margin-top: 10px;
+}
+.modal .not-a-member
+{
+  font-weight: bold;
+  padding-left: 45px;
+}
+.modal .not-a-member a
+{
+  color: #0000ff;
+  text-decoration: none;
+}
+.modal .not-a-member a:hover
+{
+  cursor: pointer;
+}
+
+/*POST*/
+.post {
+    position: relative;
+    width: 40%;
+    
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin-top: -5px  ;
+    margin-left: 65px ;
+    margin-right: 65px ;
+    margin-bottom: 20px;
+    float:left;
+    border-radius: 15px;
+}
+.post-left {
+        width: 15%;            
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+
+}
+.post-content {
+        width: 75%; 
+        height: 10%;          
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;      
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 50px;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+}
+.fa-trash 
+{
+
+    color: #181818;
+    float: right;
+    padding-top: 17px;
+   
+    font-weight: bolder;
+}
+.fa-trash:hover, .fa-trash:focus 
+{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+.fa-ellipsis-h
+{
+    float: right;
+}
+
+.trashModal
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 270px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100% ; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+
+}
+.trashModal-content
+{
+    margin: auto;
+    padding: 20px;
+    background-color: #fefefe;
+    height: 65px;
+    width: 325px; ;
+    color: black;
+}
+.trashModal-content p
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+
+}
+#yes
+{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: 120px;
+    float: left;
+    border: none;
+}
+#no
+{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    width: 120px;
+    float: right;
+    border: none;
+}
